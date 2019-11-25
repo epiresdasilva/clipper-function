@@ -25,7 +25,7 @@ docker tag epiresdasilva/clipper-function:latest epiresdasilva/clipper-function:
 
 Push to the Docker Hub
 ```
-docker push epiresdasilva/clipper-function:0.1.9
+docker push epiresdasilva/clipper-function:0.0.1
 ```
 
 Create a function in the IBM Cloud
