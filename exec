@@ -1,0 +1,2 @@
+#!/bin/bash
+/action/main | sed 's/.*\({.*}\).*/\1/g'
