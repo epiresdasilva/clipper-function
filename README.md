@@ -13,6 +13,8 @@ I decided to create a serverless function with Clipper to proof that it's possib
 
 ## Running
 
+(Replace `epiresdasilva` for your Docker Hub user)
+
 Create a docker image
 ```
 docker build -t epiresdasilva/clipper-function .
