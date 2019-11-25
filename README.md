@@ -15,7 +15,7 @@ I decided to create a serverless function with Clipper to proof that it's possib
 
 Create a docker image
 ```
-docker build --no-cache -t epiresdasilva/clipper-function .
+docker build -t epiresdasilva/clipper-function .
 ```
 
 Tag the docker image
@@ -32,3 +32,15 @@ Create a function in the IBM Cloud
 ```
 ibmcloud fn action create clipper-function --docker epiresdasilva/clipper-function:0.0.1
 ```
+
+## Stats
+
+Above, the first call with cold start. The second one, without cold start.
+
+1. Cold start activation
+
+![](images/clipper-coldstart.png)
+
+2. Without cold start activation
+
+![](images/clipper-no-coldstart.png)
